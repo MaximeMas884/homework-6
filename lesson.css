@@ -1,0 +1,35 @@
+table,th,td {
+    border:1px solid black;
+    border-collapse: collapse;
+  }
+  th,td{
+    padding: 20px;
+  }
+ td:nth-child(even){
+    background-color: red;
+
+ }
+ th:nth-child(odd){
+    background-color: blue;
+ }
+ tr:nth-child(3n){
+    background-color: yellow;
+ }
+ td:first-child{
+    background-color: green;
+ }
+ td:last-child{
+    color: pink;
+ }
+ td:hover { 
+    background-color:
+    #7afe70; }
+    td:focus{
+        color: blueviolet;
+    }
+.button:hover{
+    background-color: aquamarine;   
+}
+.button:focus{
+    color: red;
+}
